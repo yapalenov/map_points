@@ -1,3 +1,3 @@
 # Map points
 
-Run: `npm start`
+Run: `npm i && npm start`
