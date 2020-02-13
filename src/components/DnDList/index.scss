@@ -1,0 +1,57 @@
+.drag-list {
+    user-select: none;
+    background: #f7f7f9;
+    // background: red;
+    border-radius: 4px;
+    // overflow: auto;
+}
+
+.drag-item-wrapper {
+    padding: 5px;
+    position: relative;
+}
+
+.drag-item {
+    display: flex;
+    align-items: center;
+    position: relative;
+    border-radius: 4px;
+    background: white;
+    width: 100%;
+    box-shadow: none;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    padding: 1rem;
+}
+
+.delete-item-button {
+    margin-left: auto;
+    background: url("https://cdn4.iconfinder.com/data/icons/social-messaging-ui-coloricon-1/21/39-512.png");
+    background-size: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 1.4rem;
+    width: 1.4rem;
+    border-radius: 100%;
+    position: absolute;
+    right: 1rem;
+    background-color: white;
+    text-align: center;
+    font-weight: 700;
+    color: #d9534f;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.dnd-icon {
+    margin-right: 1rem;
+    display: inline-block;
+    opacity: 0.7;
+    background: url("https://c7.uihere.com/icons/234/25/160/drag-55b95938bd19c70ab194730a7371e458.png");
+    background-color: white;
+    height: 1.4rem;
+    width: 1.4rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}

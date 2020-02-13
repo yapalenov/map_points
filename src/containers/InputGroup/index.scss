@@ -1,0 +1,47 @@
+.address-input-group {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.address-input-field {
+    position: relative;
+    flex-basis: 100%;
+}
+
+.add-button {
+    position: relative;
+}
+
+.invalid-address-feedback {
+    background-color: white;
+    font-weight: 400;
+    display: block;
+    height: 100%;
+    width: calc(100% - 0.5rem);
+    line-height: 1rem;
+    top: 0;
+    left: 0.5rem;
+    color: #d9534f;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    & span {
+        text-align: center;
+    }
+    animation: fadeIn 0.1s;
+}
+
+@keyframes fadeIn {
+    0% {
+        top: 20%;
+        opacity: 0;
+    }
+
+    100% {
+        background-color: white;
+        top: 0;
+        opacity: 1;
+    }
+}
