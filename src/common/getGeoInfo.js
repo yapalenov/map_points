@@ -1,5 +1,5 @@
 export const getGeoInfo = async address =>
-    fetch("http://5.63.154.171/address_suggestions", {
+    fetch("https://ypalenov.ru/api/address_suggestions", {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
